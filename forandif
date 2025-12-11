@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for file in file1 file2
+do
+    if [[ ! -f $file ]]; then
+        echo " $file is missing"
+    else
+        echo "$file backuping in the folder"
+fi
+done
+
